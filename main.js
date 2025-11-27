@@ -924,12 +924,28 @@ function isMobile() {
   return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
 }
 
+const isMobileDevice = isMobile();
+
 const canvas = document.querySelector('canvas');
 const ctx    = canvas.getContext('2d');
-const WIDTH  = canvas.width = 1000;
-const HEIGHT = canvas.height = 1000;
+const WIDTH  = canvas.width = isMobileDevice ? 400 : 1000;
+const HEIGHT = canvas.height = isMobileDevice ? 600 : 1000;
 
+if (isMobileDevice) {
+    const gameTitle = document.getElementById('gametitle');
+    const cardSelector = document.getElementById('cardSelector');
 
+    cardSelector.flexDirection = 'row';
+
+    gameTitle.remove();
+    canvas.style.marginTop = '20px';
+    document.body.style.justifyContent = 'start'
+
+    const all = document.querySelectorAll('*');
+    all.forEach(el => {
+        el.style.fontSize = '27px';
+    });
+}
 
 let time   = {
     seconds: 0,
