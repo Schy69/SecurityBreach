@@ -1,0 +1,140 @@
+{
+    "basic": {
+            "enemy": {
+                "width": 25,
+                "height": 25,
+                "health": 20,
+                "max_health": 20,
+                "defense": 1,
+                "cadency": 2500,
+                "speed": 120,
+                "score": 10
+        },
+            "projectile": {
+                "damage": 5,
+                "speed": 100,
+                "width": 10,
+                "height": 10,
+                "count": 2,
+                "spacing": 1.5,
+                "spread": 0,
+                "homing": 0,
+                "homing_range": 0
+        }
+    },
+    "basic2": {
+            "enemy": {
+                "width": 30,
+                "height": 30,
+                "health": 35,
+                "max_health": 35,
+                "defense": 1,
+                "cadency": 2000,
+                "speed": 200,
+                "score": 20
+        },
+            "projectile": {
+                "damage": 8,
+                "speed": 120,
+                "width": 12,
+                "height": 12,
+                "count": 1,
+                "spacing": 1.5,
+                "spread": 0,
+                "homing": 0,
+                "homing_range": 0
+        }
+    },
+    "basic3": {
+            "enemy": {
+                "width": 40,
+                "height": 40,
+                "health": 60,
+                "max_health": 60,
+                "defense": 1,
+                "cadency": 2000,
+                "speed": 300,
+                "score": 30
+        },
+            "projectile": {
+                "damage": 12,
+                "speed": 260,
+                "width": 20,
+                "height": 20,
+                "count": 1,
+                "spacing": 1.5,
+                "spread": 0,
+                "homing": 0,
+                "homing_range": 0
+        }
+    },
+    "standard1": {
+            "enemy": {
+                "width": 30,
+                "height": 20,
+                "health": 50,
+                "max_health": 50,
+                "defense": 0.9,
+                "cadency": 2500,
+                "speed": 120,
+                "score": 40
+        },
+            "projectile": {
+                "damage": 10,
+                "speed": 200,
+                "width": 12,
+                "height": 12,
+                "count": 2,
+                "spacing": 2,
+                "spread": 0,
+                "homing": 0,
+                "homing_range": 0
+        }
+    },
+    "standard2": {
+            "enemy": {
+                "width": 50,
+                "height": 50,
+                "health": 70,
+                "max_health": 70,
+                "defense": 0.9,
+                "cadency": 2500,
+                "speed": 200,
+                "score": 50
+        },
+            "projectile": {
+                "damage": 15,
+                "speed": 180,
+                "width": 15,
+                "height": 15,
+                "count": 1,
+                "spacing": 1.5,
+                "spread": 0,
+                "homing": 0,
+                "homing_range": 0
+        }
+    },
+    "standard3": {
+            "enemy": {
+                "width": 40,
+                "height": 40,
+                "health": 80,
+                "max_health": 80,
+                "defense": 1,
+                "cadency": 1200,
+                "speed": 200,
+                "score": 30
+        },
+            "projectile": {
+                "damage": 5,
+                "speed": 400,
+                "width": 15,
+                "height": 15,
+                "count": 2,
+                "spacing": 1,
+                "spread": 100,
+                "homing": 0,
+                "homing_range": 0
+        }
+    }
+}

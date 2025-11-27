@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="surface"></div>
+
+    <h1 id="gametitle">Security Breach</h1>
+
+    <canvas width="100" height="2000"></canvas>
+
+    <div id="menu">
+        <h1>Bem-vindo ao Security Breach</h1>
+        <p>Avance num mundo cibernetico derrotando inimigos e se tornando mais forte para derrotar um virus ainda desconhecido.</p>
+        <button class="defaultButton" id="buttonPlay">Jogar</button>
+    </div>
+
+    <div id="buffCardsBox" class="fade-slide">
+        <h1 id="cardsTitle">Escolha sua Melhoria!</h1>
+        <div id="cardSelector">
+            <div class="buffCard" id="buffCard1">
+                <p id="buffCardStack">x0</p>
+                <img src="" alt="">
+                <h2>titulo 1</h2>
+                <p id="buffCardDesc">descricao 1</p>
+                <p id="buffCardEffect">efeito</p>
+                
+            </div>
+
+            <div class="buffCard default" id="buffCard2">
+                <p id="buffCardStack">x0</p>
+                <img src="" alt="">
+                <h2>titulo 2</h2>
+                <p id="buffCardDesc">descricao 1</p>
+                <p id="buffCardEffect">efeito</p>
+               
+            </div>
+
+            <div class="buffCard default" id="buffCard3">
+                <p id="buffCardStack">x0</p>
+                <img src="" alt="">
+                <h2>titulo 3</h2>
+                <p id="buffCardDesc">descricao 1</p>
+                <p id="buffCardEffect">efeito</p>
+                
+        </div>
+        </div>
+        
+        <button id="reroll">Embaralhar</button>
+    </div>
+
+     <div id="playerstats" class="fade-slide">
+        <div class="gamearea">
+            <div id="healthbar"></div>
+            <div id="extrahealthbar"></div>
+
+            <div id="statsComponents">
+                <img src="./img/score.png" alt="">
+                <h1 id="score">0</h1>
+
+                <img src="./img/timer.png" alt="">
+                <h1 id="timer">00:00:00</h1>
+
+                <img src="./img/level.png" alt="">
+                <h1 id="level">1</h1>
+            </div>
+
+            <div id="userSelectedBuffs">
+
+            </div>
+        </div>            
+    </div>
+
+    <div id="gameover">
+        <h1 id="defeatTitle">Voce foi derrotado!</h1>
+        <div id="finalStatsDisplay">
+            <div id="leftStatsDisplay"></div>
+            <div id="rightStatsDisplay"></div>
+        </div>
+       
+        <button id="retry">Tentar Novamente</button>
+    </div>
+
+    
+</body>
+<script src="main.js"></script>
+</html>

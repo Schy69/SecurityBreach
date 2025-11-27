@@ -1,0 +1,98 @@
+{
+    "vulnerabilidade": {
+        "title": "Vulnerabilidade Inimiga",
+        "description": "Encontra uma vulnerabilidade no siste dos inimigos, diminuindo sua defesa.",
+        "effect": "Inimigos perdem 12% de Defesa",
+        "path": "./img/vulnerabilidade.png"
+    },
+    "exploit": {
+        "title": "Exploit",
+        "description": "Utiliza-se de uma vulnerabilidade do sistema para torna-lo menos efetivo.",
+        "effect": "Inimigos perdem 12% de Dano",
+        "path": "./img/exploit.png"
+    },
+    "firewall": {
+        "title": "Firewall",
+        "description": "Controla o trafego de entrada e saida da rede, impedindo que inimigos entrem com muita vida.",
+        "effect": "Inimigos entram com menos 10% da Vida",
+        "path": "./img/firewall.png"
+    },
+    "ips": {
+        "title": "IPS/IDS",
+        "description": "Monitora a rede para que atividades maliciosas sejam barradas no sistema.",
+        "effect": "Inimigos perdem Projeteis extras",
+        "path": "./img/ips.png"
+    },
+    "criptografia": {
+        "title": "Criptografia",
+        "description": "Converte os dados para uma linguagem cifrada, permitindo apenas a leitura para pessoas autorizadas.",
+        "effect": "Usuario ganha 12% de tempo de Imunidade a mais",
+        "path": "./img/criptografia.png"
+    },
+    "vpn": {
+        "title": "VPN",
+        "description": "Cria um tunel criptografado entre um dispositivo e uma rede, garantindo privacidade e velocidade.",
+        "effect": "Usuario ganha 12% de Velocidade de projetil",
+        "path": "./img/vpn.png"
+    },
+    "segmentacao": { 
+        "title": "Segmentacao de Rede",
+        "description": "Divide a rede em sub-redes menores e isoladas para controlar o trafego delas, dificultando a invasao.",
+        "effect": "Usuario ganha 1 Projetil a mais, mas perde 30% de Dano",
+        "path": "./img/segmentacao.png"
+    },
+    "backup": {
+        "title": "Backup",
+        "description": "Cria uma copia de seguranca para restauracao em caso de perda ou corrupcao de dados",
+        "effect": "Usuario ganha 60% de Vida Extra sua Vida Maxima aumenta em 12%",
+        "path": "./img/backup.png"
+    },
+    "botnet": {
+        "title": "Botnet",
+        "description": "Rede de computadores infectados que atacam um software guiado por seu usuario.",
+        "effect": "Usuario ganha Projeteis que perseguem inimigos",
+        "path": "./img/botnet.png"
+    },
+    "pentest": {
+        "title": "Pentest",
+        "description": "Executa um teste simulado autorizado em uma rede para verificar existencia de vulnerabilidades.",
+        "effect": "Usuario ganha 10% de Dano",
+        "path": "./img/pentest.png"
+    },
+    "5g": {
+        "title": "Wifi 5G",
+        "description": "Oferece melhor conectividade e rapidez na navegacao da internet.",
+        "effect": "Usuario tem Cadencia 8% mais rapida",
+        "path": "./img/5g.png"
+    },
+    "iso": {
+        "title": "ISO 27001/27002",
+        "description": "Acordo internacional que reconhece requisitos que devem ser implementados para manter e melhorar a seguranca digital.",
+        "effect": "Todos os atributos sao melhorados em 3%",
+        "path": "./img/iso.png"
+    },
+    "spyware": {
+        "title": "Spyware",
+        "description": "Coleta informacoes de pessoa ou organizacao de forma silenciosa e as envia para outra entidade.",
+        "effect": "Usuario se Cura ao causar Dano",
+        "path": "./img/spyware.png"
+    },
+    "soar": {
+        "title": "SOAR",
+        "description": "Monitora alertas de seguranca gerados pelo sistema e executa acoes automatizadas para resolver o problema.",
+        "effect": "Inimigos tem Projeteis que perseguem menos",
+        "path": "./img/soar.png"
+    },
+    "mitre": {
+        "title": "MITRE ATT&CK Framework",
+        "description": "Uma base de conhecimento globalmente acessivel sobre taticas e tecnicas de invasores ciberneticos.",
+        "effect": "Todos os inimigos sao enfraquecidos em 3%",
+        "path": "./img/mitre.png"
+    },
+    "resgate": {
+        "title": "Resgate",
+        "description": "Quantia monetaria para recuperar dados roubados importantes de uma entidade ou organizacao.",
+        "effect": "Usuario perde 40% de Dano em troca de mais Projeteis e Dispersao",
+        "path": "./img/resgate.png"
+    }
+}

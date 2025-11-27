@@ -1,0 +1,62 @@
+{
+    "follower": {
+        "width": 30,
+        "height": 30,
+        "health": 100,
+        "max_health": 100,
+        "extra_health": 0,
+        "defense": 1,
+        "lastHit": 0,
+        "immunity": 200,
+        "cadency": 800
+    },
+    "projectile": {
+        "damage": 15,
+        "speed": 150,
+        "width": 15,
+        "height": 15,
+        "count": 1,
+        "spacing": 1.5,
+        "spread": 0,
+        "homing": 0,
+        "homing_range": 0
+    },
+    "enemies": {
+        "width": 1,
+        "height": 1,
+        "health": 1,
+        "max_health": 1,
+        "defense": 1,
+        "cadency": 1,
+        "speed": 1
+    },
+    "eProjectile": {
+        "damage": 1,
+        "speed": 1,
+        "width": 1,
+        "height": 1,
+        "count": 0,
+        "spacing": 1,
+        "spread": 1,
+        "homing": 1,
+        "homing_range": 1
+    },
+    "cards": {
+        "vulnerabilidade": 0,
+        "exploit": 0,
+        "firewall": 0,
+        "ips": 0,
+        "criptografia": 0,
+        "vpn": 0,
+        "segmentacao": 0,
+        "backup": 0,
+        "botnet": 0,
+        "pentest": 0,
+        "5g": 0,
+        "iso": 0,
+        "spyware": 0,
+        "soar": 0,
+        "mitre": 0,
+        "resgate": 0
+    }
+}
