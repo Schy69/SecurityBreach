@@ -1036,7 +1036,11 @@ requestAnimationFrame(gameLoop);
 
 updateUI('MENU');
 
-document.addEventListener('mousemove', e => {
+document.addEventListener(isMobileDevice ? 'touchmove' : 'mousemove', e => {
+    if (isMobileDevice) {
+        e.preventDefault();
+        e = e.touches[0];
+    }
     const rect = canvas.getBoundingClientRect();
     mouseX = e.clientX - rect.left;
     mouseY = e.clientY - rect.top - (isMobile() ? 200 : 0);
