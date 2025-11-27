@@ -163,7 +163,8 @@ canvas {
     margin: 10px;
     padding: 10px;
     font-size: 40px;
-    width: 300px;
+    width: 50%;
+    max-width: 300px;
     height: 70px;
     border-radius: 10px;
     transition: all 0.7s ease;
@@ -197,7 +198,7 @@ canvas {
 #menu button:hover {
     transition: all 0.7s ease;
     border: 3px solid rgb(230, 228, 255);
-    width: 350px;
+    width: 60%;
     background-color: 362f52;
 }
 
@@ -238,7 +239,8 @@ canvas {
     font-size: 30px;
     color: rgb(222, 218, 237);
     text-align: center;
-    width: 900px;
+    width: 80%;
+    max-width: 900px;
 }
 
 #playerstats {
@@ -251,7 +253,11 @@ canvas {
 }
 
 .gamearea {
-    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
     height: 100%;
 }
 
